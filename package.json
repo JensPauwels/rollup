@@ -1,9 +1,9 @@
 {
   "name": "library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sample project for packages built with rollup.",
-  "main": "dist/rollup-starter-project.js",
-  "module": "dist/rollup-starter-project.mjs",
+  "main": "dist/lib.js",
+  "module": "dist/lib.mjs",
   "jsnext:main": "dist/rollup-starter-project.mjs",
   "scripts": {
     "prebuild": "eslint lib test",
@@ -41,7 +41,7 @@
     "eslint": "^4.1.1",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
-    "rollup": "^0.43.0",
+    "rollup": "^2.39.0",
     "rollup-plugin-babel": "^2.7.1",
     "rollup-plugin-istanbul": "^1.1.0",
     "rollup-watch": "^4.0.0"
